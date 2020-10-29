@@ -90,6 +90,7 @@
 
         }
 
+
         input{
             position: relative;
             width: 600px;
@@ -99,6 +100,17 @@
             border-radius: 10px;
             top: 35%;
             left: calc(50% - 300px);
+            outline: none;
+            padding: 25px;
+            box-sizing: border-box;
+        }
+
+        input[type=text]{
+            background-image: url('./img/lupa.png');
+            background-size: 4%;
+            background-repeat: no-repeat;
+            background-position: left;
+            padding-left: 50px;
         }
 
 
